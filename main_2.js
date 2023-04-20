@@ -42,7 +42,7 @@ for (let i = 0; i < files.length; i++) {
     fs.writeFile(files[i]+"_TET"+'.csv', output, 'utf8', (err) => console.error(err))
 
     console.log(output)
-
+    //Indexes in the JSON files corresponding to the pain type data for conditions 1, 2, 3, 4
     conditions = [6, 17, 28, 39]
     output = ""
     for (let condition of conditions) {
