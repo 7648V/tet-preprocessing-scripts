@@ -6,7 +6,7 @@ for (let i = 0; i < files.length; i++) {
     output = ""
     output += files[i] + "\n" + "\n"
 
-    //Divide by 4000 to get to epochs - it's in miliseconds
+    //Divide by 4000 to get to epochs - each epoch is 4000 miliseconds
     var task_start = data[0].time_elapsed
     task_start = task_start /=4000
 
