@@ -31,21 +31,22 @@ for (let i = 0; i < files.length; i++) {
     COND4_start = COND4_start - task_start
     var COND4_end = COND4_start + 75
 
-
-    output += "Order of the conditions:" + "\n" + "CONDITION 1: " + JSON.stringify(data[3].stimulus) + "\n" + "CONDITION 2: " + JSON.stringify(data[14].stimulus) + "\n" + "CONDITION 3: " +JSON.stringify(data[25].stimulus) + "\n" + "CONDITION 4: " + JSON.stringify(data[36].stimulus) + "\n" + "\n"
-
+    output += "Condition 1 name:" + JSON.stringify(data[3].stimulus) + "\n"
     output += "Condition 1 start epoch:" + COND1_start + "\n"
     output += "Condition 1 end epoch:" + COND1_end + "\n"
     output += "\n"
 
+    output += "Condition 2 name:" + JSON.stringify(data[14].stimulus) + "\n"
     output += "Condition 2 start epoch:" + COND2_start + "\n"
     output += "Condition 2 end epoch:" + COND2_end + "\n"
     output += "\n"
     
+    output += "Condition 3 name:" + JSON.stringify(data[25].stimulus) + "\n"
     output += "Condition 3 start epoch:" + COND3_start + "\n"
     output += "Condition 3 end epoch:" + COND3_end + "\n"
     output += "\n"
 
+    output += "Condition 4 name:" + JSON.stringify(data[36].stimulus) + "\n"
     output += "Condition 4 start epoch:" + COND4_start + "\n"
     output += "Condition 4 end epoch:" + COND4_end + "\n"
     output += "\n"
