@@ -1,4 +1,5 @@
 //This code helps to realign the TET and EEG data by automatically outputting when each of the conditions start and end in Unix time for the cut20minutes function
+//Repeat this code for each participant, changing files to an array of the appropriate file names for each participant
 
 files = ["01_Mar_23_P06","03_Mar_23_P06","20_Feb_23_P06","26_Feb_23_P06","27_Feb_23_P06","28_Feb_23_P06"]
 for (let i = 0; i < files.length; i++) {
