@@ -3,7 +3,8 @@
 
 files = ["01_Mar_23_P06","03_Mar_23_P06","20_Feb_23_P06","26_Feb_23_P06","27_Feb_23_P06","28_Feb_23_P06"]
 for (let i = 0; i < files.length; i++) {
-    const data = require("/Users/pranjalpandey/Documents/Year 3/Project/TET Data/P06/"+files[i]+".json");
+    //Path has been changed to anonymise candidate name
+    const data = require("/Users/7648V/Documents/Year 3/Project/TET Data/P06/"+files[i]+".json");
     output = ""
     output += files[i] + "\n" + "\n"
 
