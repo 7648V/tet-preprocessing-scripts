@@ -11,7 +11,8 @@ files = ["01_Mar_23_P06","03_Mar_23_P06","20_Feb_23_P06","26_Feb_23_P06","27_Feb
 
 for (let i = 0; i < files.length; i++) {
     //Creates a csv file for the TET coordinate data of participant P01 for a certain date
-    const data = require("/Users/pranjalpandey/Documents/Year 3/Project/TET Data/P06/"+files[i]+".json");
+    //Path has been changed to anonymise candidate name
+    const data = require("/Users/7648V/Documents/Year 3/Project/TET Data/P06/"+files[i]+".json");
     //Indexes in the JSON files corresponding to the TET pain data for conditions 1, 2, 3, 4
     conditions = [7, 18, 29, 40]
     output = ""
